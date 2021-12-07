@@ -1,6 +1,6 @@
 import { createSimulate } from '../../../firebase/questions'
 
-export default async function handler(req: Request, res: any) {
+export default async function handler(res: any) {
 
     const response = await createSimulate()
 
