@@ -59,3 +59,28 @@ export const ButtonStyle = styled.button`
     }
 
 `
+
+export const FacebookButtonStyle = styled.button`
+
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 500;
+        outline: none;
+        border-radius: 8px;
+        width: 100%;
+        height:  48px;
+        background-color: ${(props) => props.theme.colors.white};
+        display: flex;
+        justify-self: center
+        align-self: center;
+        margin: 16px;
+        border: 1px solid #B5B5B5;
+        color: ${(props) => props.theme.colors.grey_dark};
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+            border: 1px solid #252525;
+        }
+    
+`
